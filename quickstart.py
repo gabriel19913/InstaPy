@@ -44,7 +44,7 @@ try:
     #session.comment_by_locations(['213255513'], amount=10)
     session.set_delimit_liking(enabled=True, max=300, min=None)
     session.set_delimit_commenting(enabled=True, max=None, min=10)
-    session.set_user_interact(amount=2, percentage=70, randomize=True, media='Photo')
+    session.set_user_interact(amount=3, percentage=70, randomize=True, media='Photo')
     session.follow_likers (['peelscapacetes' , 'ls2brasil'], photos_grab_amount = 2, follow_likers_per_photo = 3, randomize=True, sleep_delay=600, interact=True)
     session.like_by_tags(['capacete', 'duasrodas', 'instamoto'], amount=10, interact=True)
 
